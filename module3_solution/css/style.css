@@ -1,1 +1,131 @@
-css
+* {
+    box-sizing: border-box;
+    border: radius;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    font-size: 16px;
+    background-color: #E4E4D0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+ 
+/** HEADER **/
+  #header-nav {
+    margin-top: 15px;
+    background-color: #AEC3AE;
+    border-radius: 15px;
+    border: 0;
+  }
+  
+  #logo-img {
+    background: url('img.jpg') no-repeat;
+    width: 100px;
+    height: 110px;
+    /* margin: 10px 10px 10px 0; */
+  }
+  
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #053B50;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 2px solid #000 !important;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;  
+  }
+  .listItem{
+    display: flex;
+    justify-content: center;
+    display: none;
+   } 
+
+   .test{
+    display:block;
+   }
+
+   .listItem ul{
+    width:100%;
+    border:1px solid black;
+    text-align:center;
+   }
+   .listItem ul li {
+    width:auto;
+    border-bottom:1px solid black;
+    list-style-type: none;
+   }
+    h1 {
+    margin: 50px auto;
+    text-align: center;
+    font-family: Algerian;
+    font-weight: bold;
+    font-size: 300%;
+    color: #053B50;
+   }
+section {
+    position: relative;
+    height: 700px;
+    width: 95%;
+    padding:10px;
+}
+
+#box {
+    position: relative;
+    border: 1px solid ;
+    border-radius: 15px;
+    background-color: #AEC3AE;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+h3{
+  text-align: center;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+  .col-lg-4 {
+      float: left;
+      width: 33.33%;
+  }
+}
+
+/* Tablet Version */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+      float: left;
+      width: 50%;
+      margin: 0 auto;
+  }
+
+  .col-md-12 {
+      float: left;
+      width: 100%;
+      margin: 0 auto;
+  }
+}
+
+/* Mobile Version */
+@media (max-width: 767px) {
+  .col-sm-12 {
+      float: left;
+      width: 100%;
+  }
+}
+
+
